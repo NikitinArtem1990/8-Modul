@@ -12,8 +12,6 @@ let orderNumber = 1;
 let gameRun = true;
 
 
-
-
 const orderNumberField = document.getElementById('orderNumberField');
 const answerField = document.getElementById('answerField');
 
@@ -183,8 +181,6 @@ document.getElementById('btnOver').addEventListener('click', function () {
             
                 }
 
-
-
         answerField.innerText = answerPhrase;
     }
 
@@ -223,8 +219,7 @@ document.getElementById('btnOver').addEventListener('click', function () {
         case 0:
         firstNumber = ('ноль');
         break;
-      
-            
+              
       }
 
       const answerRandom = Math.round( Math.random()*3);
@@ -243,8 +238,6 @@ document.getElementById('btnOver').addEventListener('click', function () {
             answerPhrase = 'Могу так хоть целый день \n\u{1F60E}' + firstNumber + ' ' + '?';
         
             }
-
-
 
     answerField.innerText = answerPhrase;
 }
