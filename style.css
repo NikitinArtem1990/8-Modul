@@ -1,4 +1,63 @@
+body {
+
+background-color: rgb(32, 65, 38);
+background-image: url(https://images.unsplash.com/photo-1452696193712-6cabf5103b63?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80);
+background-size: cover;
+}
+
+
 .game-card {
     height: 100vh;
     font-family: 'Open Sans', monospace;
+    
+}
+
+.container {
+background-color: rgb(77, 182, 82);
+background-image: url(https://images.unsplash.com/photo-1599394407175-b6da85464b90?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80);
+background-size: cover;
+border-radius: 70%;
+border: 1rem solid;
+border-color: rgb(255, 255, 255);
+color: antiquewhite;
+}
+
+#btnLess {
+background-image: url(https://images.unsplash.com/photo-1584384689201-e0bcbe2c7f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80https://images.unsplash.com/photo-1521459467264-802e2ef3141f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80);
+border: solid rgb(0, 0, 0);
+color: blueviolet;
+background-color: aquamarine;
+border-radius: 50%;
+margin-left: -10px;
+font-family: fantasy;
+}
+
+#btnOver {
+background-image: url(https://images.unsplash.com/photo-1584384689201-e0bcbe2c7f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80https://images.unsplash.com/photo-1521459467264-802e2ef3141f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80);
+border: solid rgb(0, 0, 0);
+background-color: aquamarine;
+color: blueviolet;
+border-radius: 50%;
+font-family: fantasy;
+}
+
+#btnEqual {
+background-image: url(https://images.unsplash.com/photo-1535376472810-5d229c65da09?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80);
+color: rgb(255, 255, 255);
+border: solid white;
+border-radius: 50%;
+background-color: antiquewhite;
+margin-left: 20px;
+margin-right: 20px;
+font-family: fantasy;
+}
+
+.text-center{
+
+background-color: rgb(102, 62, 62);
+background-image: url(https://images.unsplash.com/photo-1676298355551-c0008749c420?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80);
+border-radius: 5%;
+font-family: cursive;
+font-size: xx-large;
+font-style: oblique;
 }
