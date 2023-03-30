@@ -2150,7 +2150,7 @@ document.getElementById('btnLess').addEventListener('click', function () {
         } 
         
         else {
-            maxValue = answerNumber + 0,3;
+            maxValue = answerNumber;
             answerNumber  = Math.floor((minValue + maxValue) / 2);
             orderNumber++;
             orderNumberField.innerText = orderNumber;
